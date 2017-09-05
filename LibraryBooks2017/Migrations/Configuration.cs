@@ -6,14 +6,14 @@ namespace LibraryBooks2017.Migrations
     using System.Linq;
     using System.Net.Http;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<LibraryBooks2017.Models.LibraryBooks2017Context2>
+    internal sealed class Configuration : DbMigrationsConfiguration<LibraryBooks2017.Models.LibraryBooks2017Context>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(LibraryBooks2017.Models.LibraryBooks2017Context2 context)
+        protected override void Seed(LibraryBooks2017.Models.LibraryBooks2017Context context)
         {
             //  This method will be called after migrating to the latest version.
 
